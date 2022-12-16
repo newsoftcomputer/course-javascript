@@ -2,8 +2,8 @@
 // ======== ASYNC AWAIT ==========
 /*
 Con el async await se soluciono el callback hell
-En el callback y promises las consultas se recibian en la funcion en el 
-async await se puede recibir en una const, variable etc.
+En el callback y promises las consultas se recibian en la funcion
+En el async await se puede recibir en una const, variable etc.
 solo es asignar a la funcion principal async y a la consulta await
 
 ej:
