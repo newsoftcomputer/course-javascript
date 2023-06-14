@@ -8,6 +8,7 @@ trabajos y tareas.
 */
 
 // Ej: Funcion que crea un correo en varios proveedores pasandole solo el nombre
+// CrearCorreo es una funcion de orden superior por que esta en el rango superior
 
 function crearCorreo(proveedorCorreo) {
     return function (nombreUsuario) {
