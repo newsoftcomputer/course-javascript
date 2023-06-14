@@ -1,4 +1,12 @@
 
+// LAS FUNCIONES PUEDEN RECIBIR ORAS FUNCIONES
+
+// Adaptado de la presentacion de Anjana Vakil
+// Learning Funcional Programing with Javascript
+// @ JSUncof 2016
+// https://youtu.be/e-5obm1G_FY?t=9m24s
+
+
 let arrayCustomers = [
     { id: 1, name: 'Marco', status: 'active' },
     { id: 2, name: 'Mariana', status: 'active' },
