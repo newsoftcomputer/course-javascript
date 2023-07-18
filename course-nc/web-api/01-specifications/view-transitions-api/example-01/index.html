@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .app {
+            justify-content: center;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        ::view-transition-old(root),
+        ::view-transition-new(root) {
+            animation-duration: 2s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app" id="app" >
+        <button id="boton">Mostrfar informacion</button>
+        <div class="content"></div>
+    </div>
+
+    <script>
+        const button = document.querySelector('#boton')
+
+        button.addEventListener("click", (e) => {
+            if (!document.startViewTransition) {
+                updateDOM()
+            }
+            document.startViewTransition(() => updateDOM());
+        });
+
+        function updateDOM() {
+            document.querySelector(
+                '.content'
+            ).innerHTML = `<h1>Nuevo Elemento</h1>`
+        }
+    </script>
+    
+</body>
+</html>
