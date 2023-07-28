@@ -1,11 +1,15 @@
 
-# DATA TYPES
+# PRIMITIVE TYPES
+
+    - Doc1: https://developer.mozilla.org/es/docs/Glossary/Primitive
+
+    - Doc2: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 ## Primitives: Se accede directamente al valor.
 
-    - String
     - Number
     - Boolean
+    - String
     - Null
     - Undefined
     - Symbol ( Available from ES2015 )
