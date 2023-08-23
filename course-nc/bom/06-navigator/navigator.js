@@ -1,2 +1,13 @@
 
 console.log('Navigator Object :', navigator)
+console.log('Navigator Geolocation :', navigator.geolocation)
+console.log('Navigator Credentials :', navigator.credentials)
+console.log('Navigator Language :', navigator.language)
+console.log('Navigator Languages :', navigator.languages)
+console.log('Navigator Locks :', navigator.locks)
+console.log('Navigator MediaDevices :', navigator.mediaDevices)
+console.log('Navigator MediaSession :', navigator.mediaSession)
+console.log('Navigator Storage :', navigator.storage)
+console.log('Navigator Online :', navigator.onLine)
+console.log('Navigator Service Worker :', navigator.serviceWorker)
+console.log('Navigator User Agent :', navigator.userAgent)
