@@ -20,7 +20,7 @@ console.log(document.querySelectorAll('#menu li')) // Todos los li hijos del id 
 console.log(document.getElementById('menu'))
 
 
-// Metodos en des uso - Use Query Selector
+// Metodos en des uso - Use Query Selector o Get Element By ID
 console.log(document.getElementsByTagName('li'))
 console.log(document.getElementsByClassName('card'))
 console.log(document.getElementsByName('name'))
