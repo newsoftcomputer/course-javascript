@@ -1,4 +1,5 @@
 
+// Attributes y Get Attributes
 console.log(document.documentElement.lang)
 console.log(document.documentElement.getAttribute('lang'))
 
@@ -19,3 +20,9 @@ console.log(document.documentElement.lang)
 const $linkDOM = document.querySelector('.link-dom')
 $linkDOM.setAttribute('target', '_blank')
 $linkDOM.setAttribute('href', 'https://nc-web-sites.nc-web.com.co/#section-header')
+$linkDOM.setAttribute('rel', 'noopener')
+
+// Remove Attribute
+console.log($linkDOM.hasAttribute('rel'))   // Tiene el atributo, Para hacer consultas
+$linkDOM.removeAttribute('rel')
+$linkDOM.removeAttribute('rel')
