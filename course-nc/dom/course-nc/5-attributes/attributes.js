@@ -15,3 +15,7 @@ console.log(document.documentElement.lang)
 document.documentElement.setAttribute('lang', 'es-MX')
 console.log(document.documentElement.lang)
 
+// Assignado en const
+const $linkDOM = document.querySelector('.link-dom')
+$linkDOM.setAttribute('target', '_blank')
+$linkDOM.setAttribute('href', 'https://nc-web-sites.nc-web.com.co/#section-header')
