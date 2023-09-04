@@ -5,6 +5,12 @@
 
     - Doc2: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
+    - Los primitivos se escriben con lowerCamelCase
+        
+        Example: 
+
+        myVariable = 'Hello World'
+
 ## Primitives: Se accede directamente al valor.
 
     - Number
