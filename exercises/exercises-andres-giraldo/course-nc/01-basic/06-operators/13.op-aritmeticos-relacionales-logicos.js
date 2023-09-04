@@ -116,20 +116,14 @@ console.log(0 == false)
 
 
 // Incremento
-let num = 4
-// num = num + 5
-let i = 5
-let x = 5
+let i = 1
+let x = 1
 let y = 1
-
- console.log('Incremento1:', num)
- // Incremento forma 1 ( Antigua ) 
- num = i + 2
+// Incremento forma 1 ( Antigua ) 
+i = i + 2
 
 // Incremento forma 2 ( Moderna )
 x += 2
-num += 5
-console.log('Incremento2:', num)
 
 // Otros
 y -= 2
