@@ -25,6 +25,9 @@ Different from other primitive types, the symbol type does not have a literal fo
 
 
 // Whitout Symbols
+
+let simbolo = Symbol
+
 id1 = 'Hola'
 id2 = 'Hola'
 console.log(id1 === id2) // out: true

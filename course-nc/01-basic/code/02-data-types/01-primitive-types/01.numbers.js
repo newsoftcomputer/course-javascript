@@ -4,6 +4,11 @@
  simplemente escríbalos directamente en JavaScript.
 */
 
+let number1 = Number
+
+let number2 = 5
+
+
 console.log (12345);
 
 /* Decimales y fracciones 
