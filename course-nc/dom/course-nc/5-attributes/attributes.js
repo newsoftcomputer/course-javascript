@@ -20,7 +20,7 @@ console.log(document.documentElement.lang)
 const $linkDOM = document.querySelector('.link-dom')
 $linkDOM.setAttribute('target', '_blank')
 $linkDOM.setAttribute('href', 'https://nc-web-sites.nc-web.com.co/#section-header')
-$linkDOM.setAttribute('rel', 'noopener')
+$linkDOM.setAttribute('rel', 'noopener')    // Atributo de seguridad
 
 // Remove Attribute
 console.log($linkDOM.hasAttribute('rel'))   // Tiene el atributo, Para hacer consultas
