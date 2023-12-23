@@ -1,3 +1,4 @@
 
-console.log(document.documentElement.lang)
-console.log(document.documentElement.getAttribute('lang'))
+const $aAtt = document.querySelector('#a-att')
+
+console.log('Get Attribute = ', $aAtt.getAttribute('href'))
