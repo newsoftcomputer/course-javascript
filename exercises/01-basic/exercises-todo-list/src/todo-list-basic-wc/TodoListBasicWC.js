@@ -1,5 +1,5 @@
 
-class TodoListBasic extends HTMLElement {
+class TodoListBasicWC extends HTMLElement {
   
   constructor() {
     super()
@@ -49,4 +49,4 @@ class TodoListBasic extends HTMLElement {
   }
 }
 
-customElements.define('todo-list-basic', TodoListBasic);
+customElements.define('todo-list-basic-wc', TodoListBasicWC);

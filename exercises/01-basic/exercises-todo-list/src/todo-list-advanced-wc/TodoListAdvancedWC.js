@@ -1,5 +1,5 @@
 
-class TodoListAdvanced extends HTMLElement {
+class TodoListAdvancedWC extends HTMLElement {
 
     constructor() {
         super()
@@ -77,4 +77,4 @@ class TodoListAdvanced extends HTMLElement {
     }
 }
 
-customElements.define('todo-list-advanced', TodoListAdvanced)
+customElements.define('todo-list-advanced-wc', TodoListAdvancedWC)
