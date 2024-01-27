@@ -1,0 +1,29 @@
+
+
+/* TLA HEADER */
+.tla__header_title {
+    color: blue;
+}
+
+
+/* TLA FORM */
+.tla__form_input {
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.tla__form_button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: beige;
+    background-color: blue;
+    border-style: none;
+    cursor: pointer;
+
+    &:hover {
+        transition: .3s;
+        background-color: gray;
+    }
+}
+
+/* TLA TASKS */
