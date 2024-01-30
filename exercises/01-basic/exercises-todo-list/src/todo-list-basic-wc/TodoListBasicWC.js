@@ -3,7 +3,7 @@ class TodoListBasicWC extends HTMLElement {
   
   constructor() {
     super()
-    this.attachShadow({mode: 'open'})
+    let shadowRoot = this.attachShadow({mode: 'open'})
     const props = [...this.attributes].map(props => {})
     console.log(props)
     this.state = {}
@@ -34,22 +34,37 @@ class TodoListBasicWC extends HTMLElement {
 
   render() {
     this.shadowRoot.innerHTML = `
-      <h2>TODO LIST BASIC - WEB COMPONENTS</h2>
-      <input onchange=${this.handleChange} type="text" placeholder='Add to list'/>
-      <button type="button" onclick=${this.handleClick}>Add task</button>
+      <section class='tlbwc'>
+        <div class='tlbwc__header'>
+          <h2>TODO LIST BASIC - WEB COMPONENTS</h2>
+        </div>
+        
+        <form class='tlbwc__form'>
+          <input onchange=${this.handleChange} class='tlbwc__form_input' type="text" placeholder='Add to list'/>
+          <button type="button" onclick=${this.handleClick}>Add task</button>
+        </form>
+        
+        <div class='tlbwc__tasks'>
+          <h4>Task List</h4>
+        </div>
 
-      <div>
-        <h4>Task List</h4>
-      </div>
+      </section>
+      
     `
   }
 
   static get styles() {
     return `
+
       :host {
         display: block;
         justify-content: center;
       }
+
+      .tlbwc__form_input {
+        padding: .5rem;
+      }
+
     `
   }
 }
