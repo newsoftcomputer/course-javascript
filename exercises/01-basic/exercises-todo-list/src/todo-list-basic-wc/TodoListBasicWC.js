@@ -17,21 +17,26 @@ class TodoListBasicWC extends HTMLElement {
 
   connectedCallback() {
     this.render()
-    this.innerHTML = this.saludo
-    this.innerHTML = this.changeInput
+    this.innerHTML = this.handleChange
+    this.innerHTML = this.handleClick
   }
 
+  handleChange(e) {
+    e.preventDefault()
+    let text = e.target.value
+    console.log(text)
+    
+  }
 
-
-  changeInput() {
-    console.log('Hola')
+  handleClick() {
+    console.log('Cliked')
   }
 
   render() {
     this.shadowRoot.innerHTML = `
-      <h2>Todo List Basic</h2>
-      <input type="text" placeholder='Add to list'/>
-      <button type="button" onclick='${this.changeInput}'>+</button>
+      <h2>TODO LIST BASIC - WEB COMPONENTS</h2>
+      <input onchange=${this.handleChange} type="text" placeholder='Add to list'/>
+      <button type="button" onclick=${this.handleClick}>Add task</button>
 
       <div>
         <h4>Task List</h4>
