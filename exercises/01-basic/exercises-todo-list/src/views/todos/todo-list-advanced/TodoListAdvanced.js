@@ -78,10 +78,14 @@ buttonTask.addEventListener('click', (e) => {
     // Delete
     let buttonDelete = document.querySelector('#id_delete')
     buttonDelete.addEventListener('click', () => {
-
         console.log('Deleted')
     })
 
+    // Check
+    let buttonCheck = document.querySelector('#id_check')
+    buttonCheck.addEventListener('click', () => {
+        console.log('Checked')
+    })
 
 })
 
