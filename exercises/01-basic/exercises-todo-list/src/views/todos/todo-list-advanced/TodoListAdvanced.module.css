@@ -38,12 +38,23 @@
 }
 
 .tla__tasks_adv_delete {
+    width: 1.7rem;
     cursor: pointer;
     margin: 0 .3rem 0 3rem;
+    fill: #D50000;
 }
 
 .tla__tasks_adv_edit{
+    width: 1.7rem;
     cursor: pointer;
     margin: 0 .3rem;
+    fill: aqua;
+}
+
+.tla__tasks_adv_check{
+    width: 1.7rem;
+    cursor: pointer;
+    margin: 0 .3rem;
+    fill: #76FF03;
 }
 
