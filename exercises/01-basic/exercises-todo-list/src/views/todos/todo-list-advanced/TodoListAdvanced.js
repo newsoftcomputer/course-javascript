@@ -23,21 +23,25 @@ document.querySelector('#todo-list-advanced').innerHTML = `
 
 `
 
-var task = ''
-var arrayTasks = []
+var newTask = ''
+var arrayTasks = [id = 0, task, estado = false]
 
 let inputTask = document.querySelector('#input_task_adv')
 inputTask.addEventListener('change', (e) => {
     e.preventDefault()
-    let newTask = e.target.value
+    let task = e.target.value
     task = newTask
-    console.log(task)
+    console.log(newTask)
 })
 
 let buttonTask =  document.querySelector('#button_task_adv')
 buttonTask.addEventListener('click', (e) => {
     e.preventDefault()
-    arrayTasks.push(task)
+    arrayTasks.push([
+        id = 1,
+        task = newTask,
+        estado = false
+    ])
     console.log(arrayTasks)
 
     document.querySelector('#id_tasks_adv').innerHTML = 
@@ -48,7 +52,7 @@ buttonTask.addEventListener('click', (e) => {
                 <p key='${x}'>${x}</p>
             </div>
             
-            <a id='id_delete' key='${x}' class='${styles.tla__tasks_adv_delete}'>
+            <a id='id_delete' click='${deleteTask}' key='${x}' class='${styles.tla__tasks_adv_delete}' type='button' >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" fill='#D50000'> <title>Delete Task</title><path d="M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z" /></svg>
             </a>
 
@@ -61,12 +65,21 @@ buttonTask.addEventListener('click', (e) => {
         `
     ).join('')
 
+    // Clear
     let inputTask = document.querySelector('#input_task_adv')
     inputTask.value = ''
+
+    // Delete
+    let buttonDelete = document.querySelector('#id_delete').
+        buttonDelete.addEventListener('click', () => {
+
+        console.log('Deleted')
+    })
+
+
 })
 
-let buttonDelete = document.querySelector('#id_delete')
-buttonDelete.addEventListener('click', () => {
 
-    console.log('Delete')
-})
+
+
+
