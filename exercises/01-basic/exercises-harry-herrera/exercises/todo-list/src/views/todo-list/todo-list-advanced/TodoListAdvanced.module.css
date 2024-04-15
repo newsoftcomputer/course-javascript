@@ -1,0 +1,54 @@
+
+.tlb {
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.tlb__header {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+}
+
+.tlb__form_input {
+  padding:.5rem;
+  border-radius:.5rem;
+}
+
+.tlb__form_button_add {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  color: beige;
+  background-color: #484848;
+}
+
+.tlb__form_button_delete {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(116, 4, 4, 0.541);
+  cursor: pointer;
+  color: beige;
+  background-color: #df0d0d;
+}
+
+.tlb__task_actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.svg_delete {
+  width: 1.6rem;
+  fill: #df0d0d;
+  cursor: pointer;
+}
+
+.svg_check {
+  width: 1.6rem;
+  fill: #37c41a;
+  cursor: pointer;
+}
