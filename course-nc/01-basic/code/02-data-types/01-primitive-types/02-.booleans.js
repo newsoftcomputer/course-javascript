@@ -5,7 +5,9 @@
 // generalmente es una buena opción para un booleano. 
 // Es útil almacenar booleanos en variables para realizar un seguimiento de sus valores y cambiarlos con el tiempo.
 
-var estado = false;
+let status = Boolean
+
+let estado = false;
 // Creado con el constructor
 let a = Boolean(true)
 

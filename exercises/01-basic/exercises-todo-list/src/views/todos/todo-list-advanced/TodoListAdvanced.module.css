@@ -1,0 +1,60 @@
+
+
+/* TLA HEADER */
+.tla__header_title {
+    color: blue;
+}
+
+
+/* TLA FORM */
+.tla__form_input {
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.tla__form_button {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    color: beige;
+    background-color: #1565C0;
+    border-style: none;
+    cursor: pointer;
+
+    &:hover {
+        transition: .3s;
+        background-color: #424242;
+    }
+}
+
+/* TLA TASKS */
+.tla__tasks_title {
+    color: #424242;
+}
+
+.tla__tasks_adv_cont {
+    display: flex;
+    align-items: center;
+    margin: 0 .5rem;
+}
+
+.tla__tasks_adv_delete {
+    width: 1.7rem;
+    cursor: pointer;
+    margin: 0 .3rem 0 3rem;
+    fill: #D50000;
+}
+
+.tla__tasks_adv_edit{
+    width: 1.7rem;
+    cursor: pointer;
+    margin: 0 .3rem;
+    fill: aqua;
+}
+
+.tla__tasks_adv_check{
+    width: 1.7rem;
+    cursor: pointer;
+    margin: 0 .3rem;
+    fill: #76FF03;
+}
+

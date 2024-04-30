@@ -1,0 +1,3 @@
+##  JAVASCRIPT
+
+  JavaScript ( JS ) es un lenguaje de programación ligero interpretado (o compilado justo a tiempo ) con funciones de primera clase . Si bien es más conocido como lenguaje de programación para páginas web, muchos entornos que no son de navegador también lo utilizan, como Node.js , Apache CouchDB y Adobe Acrobat . JavaScript es un lenguaje dinámico basado en prototipos , multiparadigma, de un solo subproceso , que admite estilos orientados a objetos, imperativos y declarativos (por ejemplo, programación funcional).
