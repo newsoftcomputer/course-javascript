@@ -23,7 +23,7 @@ console.log(`Resultado imperativo: ${resultadoImperativo}`)
 
 
 // METODO DECLARATIVO
-// Array con datos de animales
+// Array de objectos con datos de animales
 const mascotas = [
     { animal: 'Perro', nombre: 'Puchini', edad: 6, raza: 'Gran danes' },
     { animal: 'Cerdo', nombre: 'Chanchito feliz', edad: 3, raza: 'Mini pig' },
