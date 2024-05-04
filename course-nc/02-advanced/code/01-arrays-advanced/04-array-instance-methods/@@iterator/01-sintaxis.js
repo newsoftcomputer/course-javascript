@@ -1,0 +1,2 @@
+
+array[Symbol.iterator]()
